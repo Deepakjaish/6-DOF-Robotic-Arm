@@ -276,12 +276,13 @@ Concepts:     GPIO, PWM, kinematics, gear mechanisms, robotics
 
 ## 👤 About
 
-**[Deepak Jaish]**
+**Deepak Jaish**
 3rd Year Automation & Robotics Engineering Student
-[University School of Automation & Engineering], Delhi
+University School of Automation & Engineering, Delhi
 
-[![LinkedIn][(https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](YOUR_LINKEDIN_URL)](https://www.linkedin.com/in/deepak-jaish-a46a1b376/)
-[![GitHub][(https://img.shields.io/badge/GitHub-Follow-black?style=flat-square&logo=github)](YOUR_GITHUB_URL)](https://github.com/)
+LinkedIn[(https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](YOUR_LINKEDIN_URL)](https://www.linkedin.com/in/deepak-jaish-a46a1b376/)
+
+GitHub[(https://img.shields.io/badge/GitHub-Follow-black?style=flat-square&logo=github)](YOUR_GITHUB_URL)](https://github.com/)
 
 ---
 
