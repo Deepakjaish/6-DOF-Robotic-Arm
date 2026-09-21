@@ -3,15 +3,6 @@
 <p align="center">
   <img src="Images/arm_main.jpg" alt="6 DOF Robotic Arm" width="600"/>
 </p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Arduino%20Uno-blue?style=flat-square&logo=arduino" />
-  <img src="https://img.shields.io/badge/Control-Bluetooth%20HC--05-purple?style=flat-square" />
-  <img src="https://img.shields.io/badge/CAD-SolidWorks%202026-red?style=flat-square" />
-  <img src="https://img.shields.io/badge/Print-PLA%203D%20Printed-green?style=flat-square" />
-  <img src="https://img.shields.io/badge/Status-In%20Progress-orange?style=flat-square" />
-</p>
-
 ---
 
 ## 🚧 Current Project Status
@@ -21,8 +12,9 @@
 | Item | Status | Notes |
 |---|---|---|
 | Arduino Uno R3 | ✅ Installed | Main controller running |
-| MG996R #1 — base joint | ✅ Installed | Base rotation working |
-| MG996R #2 — shoulder joint | ⏳ Pending | Not yet available — will be installed soon |
+| MG996R #1 — Shoulder joint | ✅ Installed | Link 1 rotation working |
+| MG996R #2 — Shoulder joint | ✅ Installed | Link 2 rotation working |
+| MG996R #3 — Base joint | ⏳ Pending | Not yet available — will be installed soon |
 | 3× SG90 servos | ✅ Installed | Elbow, wrist, gripper working |
 | HC-05 Bluetooth | ✅ Installed | Wireless control working |
 | External battery/power supply | ⏳ Pending | Currently running on mobile charger (5V 2A) — dedicated external battery supply will be added |
@@ -60,7 +52,7 @@ This project covers the complete engineering cycle:
 | Component | Quantity | Purpose | Approx Cost (₹) |
 |---|---|---|---|
 | Arduino Uno R3 | 1 | Main microcontroller | ₹264 |
-| MG996R servo motor | 1 ✅ + 1 ⏳ | Base (installed) + Shoulder (pending) | ₹680 |
+| MG996R servo motor | 2 ✅ + 1 ⏳ | Shoulder (installed) + Base (pending) | ₹680 |
 | SG90 micro servo | 3 | Elbow, wrist, gripper — all installed | ₹255 |
 | HC-05 Bluetooth module | 1 | Wireless smartphone control | ₹150 |
 | Mobile charger 5V 2A | 1 | Current power supply — external battery pending | ₹0 (existing) |
@@ -90,7 +82,8 @@ This project covers the complete engineering cycle:
 ## 🔌 Wiring Diagram
 
 <p align="center">
-  <img src="Wiring/wiring_diagram.png" alt="Wiring Diagram" width="700"/>
+  <img width="2720" height="3600" alt="2mg996r_3sg90_wiring_diagram" src="https://github.com/user-attachments/assets/26cd0939-523f-4c15-a9d9-f674c94000c3" />
+
 </p>
 
 ### Key Wiring Rules
@@ -163,7 +156,7 @@ Charger GND     →  All servo brown/black wires
 - All parts fully constrained before sending to print
 
 <p align="center">
-  <img src="CAD/assembly_screenshot.png" alt="SolidWorks Assembly" width="600"/>
+  <img width="337" height="245" alt="Screenshot 2026-07-25 191840" src="https://github.com/user-attachments/assets/832a6c54-67a0-4601-b0d0-f71658de05b5" />
 </p>
 
 ### Print Settings (give to print shop)
@@ -283,12 +276,12 @@ Concepts:     GPIO, PWM, kinematics, gear mechanisms, robotics
 
 ## 👤 About
 
-**[Your Name]**
-3rd Year Mechatronics Engineering Student
-[Your College Name], Kanpur
+**[Deepak Jaish]**
+3rd Year Automation & Robotics Engineering Student
+[University School of Automation & Engineering], Delhi
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](YOUR_LINKEDIN_URL)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat-square&logo=github)](YOUR_GITHUB_URL)
+[![LinkedIn][(https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](YOUR_LINKEDIN_URL)](https://www.linkedin.com/in/deepak-jaish-a46a1b376/)
+[![GitHub][(https://img.shields.io/badge/GitHub-Follow-black?style=flat-square&logo=github)](YOUR_GITHUB_URL)](https://github.com/)
 
 ---
 
