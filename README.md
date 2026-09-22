@@ -294,6 +294,3 @@ Feel free to use, modify, and build upon it.
 
 ---
 
-<p align="center">
-  Built with ❤️ as part of my embedded systems and robotics learning journey
-</p>
