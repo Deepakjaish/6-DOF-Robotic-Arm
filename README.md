@@ -1,7 +1,8 @@
 # 🦾 6 DOF Robotic Arm with Bluetooth Control
 
 <p align="center">
-  <img src="Images/arm_main.jpg" alt="6 DOF Robotic Arm" width="600"/>
+  <img width="1280" height="960" alt="IMG 5" src="https://github.com/user-attachments/assets/7a0ea13b-3f33-495b-be47-bfbfe6546e7e" />
+
 </p>
 ---
 
