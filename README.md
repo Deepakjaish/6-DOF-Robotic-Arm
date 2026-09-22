@@ -113,9 +113,10 @@ Charger GND     →  All servo brown/black wires
 ## 💻 Software Setup
 
 ### Requirements
-- Arduino IDE 2.x — [Download here](https://www.arduino.cc/en/software)
+- Arduino IDE 2.x 
 - Servo library — built into Arduino IDE (no install needed)
 - SoftwareSerial library — built into Arduino IDE (no install needed)
+- Python 
 
 ### Upload Steps
 ```
@@ -125,6 +126,8 @@ Charger GND     →  All servo brown/black wires
 4. Select Tools → Port → your COM port
 5. Click Upload button
 6. Wait for "Done uploading"
+7. Then Upload the .py file into your Python library.
+8. Open the folder directory with Command prompt.
 ```
 
 ### Bluetooth App Setup
